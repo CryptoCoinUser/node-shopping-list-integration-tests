@@ -1,4 +1,9 @@
 language: node_js
 node_js: node
-
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: OWxv1G6R6D9saeI2jOLmSsmgZn1MQJqL0rABAzRqwlU/XARYEfc0gVrjdrPR5Jv+8SG4m0aUZc9lxzSf/oQuuQR1WPGtQjuB52hovqBrI73DeIAfPsgvhTwcrjNP5RvPFDD5mmghiamy+/QWcI/1b92njpULpVId4XLWbV0e//JB/6Ya0A16/vejpiPYS6hJx1UcKhJTx5i0qK0ItfUHJJofy1D+Kv/cfYRgJrL8RWK6ZwfOlB1+BqMJ4vg2VlkLObDPd/mnQgdYafcGUIae9QaGmQVViW03zYEnrm7Y24b7Ml6ODmkar5mWyVr87tiL5XW7N6QE1D0LJBe/hX7KG7gjDcD7YEsPOXIoNLdQghDiKSHqdVCgt1f0Nf352XqApT5i7a/X8IbJNOcW/7s2xbrFQlGlPAQZAvNdU+yAgs4PRqkJd36NemDU+yE9HE7enB7enP+TiRpPR1p5IQ3jp9k8VVl8eN5gy3Ws4zBFigN24GjYgsbaZkX6kvbo7E5Ry148TNhEWqAq98Bh6DSUBBdMgYBZDJvlESzvEo4dCdec94KiaJfsMOkVlaKpNEklwQ3b/GmYXr+tYD4XXw/+Hcuru2V5QH2KfGz9xnnpyZi7xvGUaTWWM+6d9tEw+uGNCSc0HhKxCAIGIGrWZPiK6vlWxGpneg6SEVQIGm5rjwE=
+  app: still-shelf-84715
+  on:
+    repo: CryptoCoinUser/node-shopping-list-integration-tests
